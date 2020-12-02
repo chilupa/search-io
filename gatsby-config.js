@@ -5,6 +5,14 @@
  */
 
 module.exports = {
+  pathPrefix: "/gatsby-gh-pages",
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+  ],
 }
