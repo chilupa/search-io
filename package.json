@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "search-io",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Simple search for tech news",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
