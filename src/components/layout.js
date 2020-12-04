@@ -1,13 +1,12 @@
 import React from "react"
-import Header from "./header"
+import { Container, Header } from "../components"
 
-const layout = ({ children }) => {
+export default ({ children }) => {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+    <Container>
       <Header />
+      <br />
       {children}
-    </div>
+    </Container>
   )
 }
-
-export default layout

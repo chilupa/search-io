@@ -1,11 +1,9 @@
 import React from "react"
 
-const header = () => {
+export default () => {
   return (
     <div>
-      <h1>Site Header</h1>
+      <h1 style={{ textAlign: "center" }}>search-io</h1>
     </div>
   )
 }
-
-export default header

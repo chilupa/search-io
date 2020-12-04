@@ -15,13 +15,18 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "axios": "^0.21.0",
+    "formik": "^2.2.5",
     "gatsby": "^2.26.1",
     "gatsby-plugin-typography": "^2.8.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-icons": "^4.1.0",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
-    "typography-theme-fairy-gates": "^0.16.19"
+    "typography-theme-fairy-gates": "^0.16.19",
+    "yup": "^0.32.0"
   },
   "devDependencies": {
     "prettier": "2.1.2"
