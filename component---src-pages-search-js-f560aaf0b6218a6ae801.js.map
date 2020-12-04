@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/search.js"],"names":["search"],"mappings":"2FAAA,gCAMeA,UAJA,WACb,OAAO","file":"component---src-pages-search-js-f560aaf0b6218a6ae801.js","sourcesContent":["import React from \"react\"\n\nconst search = () => {\n  return <div>Search page</div>\n}\n\nexport default search\n"],"sourceRoot":""}
