@@ -20,6 +20,10 @@ export default () => {
     fetchData()
   }, [url])
 
+  const validationSchema = yup.object({
+    search: yup.string().required("Required"),
+  })
+
   const formik = useFormik({
     initialValues: {
       search: "",
@@ -30,10 +34,6 @@ export default () => {
         setUrl(`https://hn.algolia.com/api/v1/search?query=${values.search}`)
       }
     },
-  })
-
-  const validationSchema = yup.object({
-    search: yup.string().required("Required"),
   })
 
   const props = {
